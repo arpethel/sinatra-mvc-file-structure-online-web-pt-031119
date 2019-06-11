@@ -7,7 +7,7 @@ class Dog
     @name = name
     @breed = breed
     @age = age
-    binding.pry
+    # binding.pry
     dogs << self
   end
 
