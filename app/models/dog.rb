@@ -7,7 +7,8 @@ class Dog
     @name = name
     @breed = breed
     @age = age
-    dogs << self.new
+    binding.pry
+    dogs << self
   end
 
   def self.all
